@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,intitial-scale=1.0" />
+
+    <title>Satish Thapa</title>
+
+    <!-- CSS  -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/79b1950c97.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="hero">
+      <nav>
+        <h1 class="logo"><a href="index.html">Satish</a></h1>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="blog.html">BLOGS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <section class="contact" id="contact">
+        <div class="title reveal">
+          <h2 class="section-title">Contact <span>Me</span></h2>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info">
+                <h3>Address</h3>
+                <span>Kathmandu, Nepal</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info">
+                <h3>Phone</h3>
+                <span>+977-9840724587</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h3>Email Address</h3>
+                <span>thapasatish@gmail.com</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="info">
+                <h3>Website</h3>
+                <span>thapasatish.com.np</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+             <!--Creating a form-->
+            <form id="my_form" onsubmit="return validation();" class="contact-form">
+              <h3>Send<span> Message</span></h3>
+              <div id="error_message"></div>
+              <div class="input-box">
+                <input type="text" name="" value="" placeholder="Name" id="name" />
+              </div>
+              <div class="input-box">
+                <input type="text" name="" value="" placeholder="Phone" id="phone" />
+              </div>
+              <div class="input-box">
+                <input type="email" name="" value="" placeholder="Email" id="email" />
+              </div>
+              <div class="input-box">
+                <textarea name="name" rows="8" cols="80" placeholder="Message" id="message"></textarea>
+              </div>
+              <div class="input-box">
+                <input type="submit" class="send-btn" name="" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>Copyright © 2021 | <em> Satish Thapa.</em> All Rights Reserved.</p>
+    </footer>
+    <script src="javascript/typed.js"></script>
+    <script src="javascript/scripts.js"></script>
+  </body>
+</html>
